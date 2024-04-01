@@ -17,6 +17,9 @@ while current_savings < portion_down_payment:
     m = m+1
     interest_return = float(current_savings*r/12)
     current_savings = current_savings + interest_return + portion_saved_m
+
+#Output of key variables and expected saving time
+
 print(m)
 print(current_savings)
 print(total_cost)
